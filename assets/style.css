@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    background-color: black;   
+    color: white; 
+}
+header {
+    position: relative;
+}
+header>img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000;
+    height: 90;
+    display: block;
+}
+.hmenu {
+    margin: 0px;
+    padding-top: 2%;
+    border-radius: 5px;
+    list-style: none;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+ul.hmenu>li>a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    color: white;
+
+
+}
+
+ul.hmenu>li>a:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+ul.hmenu>li {
+    float: left;
+    margin: 0 5px;
+
+}
+body {
+    background-color: black;   
+    color: white; 
+}
+
+.container-body {
+    display: flex;
+}
+.text{
+    margin-top: 5%;
+}
+
+
+main .content{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.content .row{
+    position: relative;
+    margin: 60px 100px;
+}
+.content .card{
+    position: relative !important;
+    display: flex;
+    align-items: center;
+}
+.content .card .card-img{
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+}
+
+.content .card-body{
+    margin-left: 30px;
+}
+.content .card-body a{
+    color: #000;
+    text-decoration: none;
+}
+.content .card-title{
+    margin-bottom: 20px;
+}
+.content .card-sub{
+    margin-bottom: 10px;
+}
+.content .detail a{
+    color: #929090;
+}
+.content .detail a:hover{
+    color: #ffa500;
+}
+/*-------------------------------*/
+.partner>a{   
+    padding-left: 2%; 
+    margin-left: 5%;
+    padding-top: 2%;
+}
+.partner{
+    padding-top: 2%;
+}
+.coreteam{
+    display: flex;
+    width: 20, 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.ceo1>img{
+    width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.ceo1>p{
+    margin-left: 45px;    
+}
+.ceo1>h1{
+    margin-left: 45px;    
+}
+/*-------------------------------*/
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;  
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.ggmap{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sl{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------*/
+
+
+footer{
+    padding: 10px;
+    clear: both;
+    text-align: center;    
+    color: whitesmoke;
+    display: block;
+}
+footer h4{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer audio{
+    height: 30px;
+    width: 700px;
+}
